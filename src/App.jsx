@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
 import Product from './components/Product';
-import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 
 export default function App() {
@@ -25,9 +23,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
         <Product />
-        <Achievements />
         <Contact />
       </main>
     </div>
